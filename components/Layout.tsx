@@ -3,7 +3,10 @@ import AppBar from "../components/AppBar";
 import Menu from "../components/Menu";
 import {Grid, Box, Paper} from "@material-ui/core";
 
-export default (props) => (
+export default (props) => {
+
+
+    return (
     <div>
         <Grid container spacing={0}>
             <Grid item xs={12}>
@@ -28,3 +31,4 @@ export default (props) => (
         </Grid>
     </div>
 )
+}
